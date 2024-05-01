@@ -16,7 +16,7 @@ public class KnapSnackUsingGreedy {
         }
         // sort the ratio array in descending order
         for (int i = 0; i < n - 1; i++) {
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i + 1; j < n; j++) {   
                 if (ratio[i] < ratio[j]) {
                     double tempRatio = ratio[i];
                     ratio[i] = ratio[j];
