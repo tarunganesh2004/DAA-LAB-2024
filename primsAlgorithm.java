@@ -15,7 +15,7 @@ public class primsAlgorithm {
     static void printMST(int parent[], int graph[][]) {
         System.out.println(" Edge \t\tWeight");
         for (int i = 1; i < V; i++) {
-            System.out.println(parent[i] + " <-> " +           i + " \t" + graph[i][parent[i]]);
+            System.out.println(parent[i] + " <-> " + i + " \t" + graph[i][parent[i]]);
         }
     }
 
